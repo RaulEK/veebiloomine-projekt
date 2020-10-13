@@ -1,0 +1,142 @@
+* {
+    font-family: sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.header img {
+    margin-left: 50px;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-login {
+    display: flex;
+    margin-left: auto;
+    margin-right: 10px;
+}
+.header-login h1 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    color: #333333;
+    text-transform: uppercase;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+.search {
+    background: #F6F6F6;
+    border: 1px solid #B6B6B6;
+    box-sizing: border-box;
+    width: 360px;
+    height: 47px;
+    margin-right: 150px;
+}
+
+.search p {
+    margin: 10px 0 0 10px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 31px;
+    display: flex;
+    align-items: center;
+    color: #AAAAAA;
+}
+
+.header-nav {
+    background-color: #C60922;
+    display: flex;
+    justify-content: space-around;
+    height: 92px;
+}
+
+.header-nav a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.header-nav h1 {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;;
+}
+
+.footer {
+    background-color: #3C3C3C;
+    padding: 20px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+}
+
+.column-contact {
+    display: flex;
+    flex-direction: column;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+
+.column-title {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    color: #EC1C2D;
+}
+
+.column-text{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+
+.column-contact h1 {
+    padding: 5px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.bottom-text {
+    margin-top: 50px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #FFFFFF;
+}
