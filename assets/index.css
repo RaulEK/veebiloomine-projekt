@@ -2,7 +2,24 @@
     display: flex;
     padding: 30px 120px;
     background: url("images/background-steel.png");
+    position: relative;
+}
 
+.cta .caret {
+    height: 100px;
+    width: 50px;
+    position: absolute;
+    top: calc(50% - 100px);
+    fill: #777777;
+
+}
+
+.cta .caret-left {
+    left: 40px;
+}
+
+.cta .caret-right {
+    right: 40px;
 }
 
 .cta-text-container {
