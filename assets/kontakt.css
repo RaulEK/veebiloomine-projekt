@@ -1,0 +1,119 @@
+.contact {
+    max-width: 60%;
+    position: relative;
+    display: flex;
+    margin: 50px auto;
+}
+
+form {
+    width: 60%;
+}
+
+form h1 {
+    font-size: 72px;
+    line-height: 86px;
+
+    color: #333333;
+    text-decoration: underline;
+}
+
+form .fields {
+    display: flex;
+    flex-direction: row;
+}
+
+form fieldset {
+    margin-top: 40px;
+    border: 0;
+}
+
+form fieldset:not(:first-child):last-child {
+    margin-left: 44px;
+}
+
+form fieldset label {
+    display: block;
+    margin-bottom: 8px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+form fieldset input, textarea {
+    background: #f6f6f6;
+    border: 1px solid #b6b6b6;
+    height: 30px;
+    min-width: 300px;
+}
+form fieldset input:focus, form fieldset textarea:focus {
+    outline: 2px solid #EF484F;
+}
+
+form fieldset textarea {
+    width: calc(100% - 100px);
+    height: 300px;
+}
+
+form input[type="submit"] {
+    font-size: 24px;
+    line-height: 34px;
+    background: #C60922;
+    text-align: center;
+    margin-top: 32px;
+    color: #FFFFFF;
+    box-shadow: 0;
+    border: 0;
+    padding: 0 32px;
+}
+
+.info {
+    width: 25%;
+}
+
+.info-header, .social-media-header {
+    display: inline-flex;
+    align-items: center;
+    font-size: 36px;
+    line-height: 43px;
+
+    color: #C60922;
+    border-bottom: 1px solid black;
+    padding: 0 0 10px;
+}
+
+.social-media-header {
+    margin-top: 30px;
+}
+
+.info-icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+}
+
+.info table {
+    padding: 20px;
+    width: 100%;
+}
+
+.info table td {
+    padding: 5px 0;
+}
+
+.info table td:first-child {
+    font-weight: bold;
+}
+.info table td:last-child {
+    text-align: right;
+}
+
+.social-media-icons {
+    display: flex;
+    flex-direction: row;
+}
+.social-media-icons svg {
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+}
