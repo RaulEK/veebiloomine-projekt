@@ -49,3 +49,24 @@
     color: #FFFFFF;
     width: 200px;
 }
+
+@media all and (max-width: 1400px) {
+    .catalogs {
+        width: 100%;
+        margin: 0;
+    }
+
+    .catalogs h1 {
+        text-align: center;
+        font-size: 50px;
+    }
+
+    .catalog-items {
+        justify-content: center;
+    }
+
+    .catalogs .catalog-items .catalog {
+        width: 100%;
+        padding: 20px 0;
+    }
+}
