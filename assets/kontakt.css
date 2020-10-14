@@ -117,3 +117,38 @@ form input[type="submit"] {
     height: 50px;
     margin: 10px;
 }
+
+@media all and (max-width: 1850px) {
+    form {
+        width: 100%;
+        padding: 30px;
+    }
+
+    .info table {
+        max-width: 300px;
+    }
+
+
+    form .fields {
+        flex-direction: column;
+    }
+
+    form fieldset:not(:first-child):last-child {
+        margin-left: 0;
+    }
+
+    .contact {
+        max-width: 100%;
+        flex-direction: column;
+    }
+
+    .info {
+        margin: 200px auto;
+        width: 100%;
+    }
+
+    .info-header, .social-media-header {
+        font-size: 24px;
+        padding: 20px;
+    }
+}
